@@ -1,0 +1,463 @@
+
+/*Big tablets to 1200px (width smaller than 1140px row)*/
+@media only screen and (max-width: 1200px) {
+	
+	.hero-text-box {
+	
+	padding: 0 2%;
+	width: 100%;
+	
+}
+	
+	.row { padding: 0 2%;}
+	
+	.main-nav {display: block;} 
+	
+	
+	.map-box {
+	
+	height: 660px;
+	
+}
+	h1 {font-size:220%;}
+	h2 { font-size:170%;}
+
+.maps {
+	
+	height: 660px;
+}
+
+.form-box {
+	
+	
+	height: 660px;
+	padding-top: 20px;
+}
+	
+	input[type="submit"]{
+		
+		margin-top:20px;
+	}
+}
+
+
+/*Small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width: 1023px) {
+	
+	body { 
+		
+		font-size: 17px;
+	
+	}
+	section { padding: 60px 0;}
+	
+	.long-copy {
+	
+	width: 80%;
+	margin-left: 10%;
+}
+	
+	.steps-box { margin-top: 10px;}
+	.steps-box:last-child { margin-top: 30px;}
+	.steps-box:first-child { padding-right: 2%;}
+	.work-steps { margin-bottom: 40px;}
+	.work-steps:last-of-type { margin-bottom: 60px;}
+	
+	.app-screen { width: 55%;}
+	
+	
+	
+	.icon-small {
+		
+		width: 15px;
+		margin-right: 5px;
+	}
+	
+	.city-feature { font-size: 90%;}
+	
+	.plan-box {
+		
+		margin-left: 0%;
+		width: 100%;
+	}
+	
+	.plan-price { font-size: 250%;}
+	
+	.contact-form { width: 90%;}
+	
+	.plan-box .icon-small {
+		
+		width: 10px;
+		margin-right: 15px;
+		
+	}
+	
+	.work-steps div {
+	
+	height: 50px;
+	width: 50px;
+	font-size: 150%;
+	margin-right: 20px;
+		
+     }
+	
+	.btn-app img {margin-right: 5px;}
+	
+	.footer-nav li { margin-right: 10px;}
+	
+	.main-nav {display: block;} 
+	
+
+
+.form-box h2 {
+	
+	
+	font-size: 160%;
+	margin-bottom: 20px;
+	line-height: 145%;
+	
+}
+
+.form-box h2::after {
+	
+
+	margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+	
+	
+
+	margin-bottom: 8px;
+	
+}
+
+body { 
+	
+	letter-spacing: 1px;
+	
+	
+}
+
+.map-box {
+	
+	height: 630px;
+	
+}
+
+.maps {
+	
+	height: 630px;
+}
+
+.form-box {
+	
+	
+	height: 630px;
+	
+	
+	}
+.footer-nav li { line-height: 145%;}
+
+form label { line-height: 145%;}
+
+}
+
+/*Small phones to small tablets: from 481px to 767px*/
+@media only screen and (max-width: 767px) {
+	
+	body { 
+		
+		
+		font-size: 16px;
+		letter-spacing: 1px;
+		
+	}
+	
+	.form-box h2 { font-size: 150%;}
+	
+	.box p { 
+		
+		letter-spacing: 1px;
+		word-spacing: 3px;
+	
+	}
+	
+	
+	section { padding: 30px 0;}
+	
+	.row,
+	.hero-text-box {
+		
+		padding: 0 4%;
+	}
+	
+	.col { 
+		
+		width: 100%;
+		margin: 0% 0 4% 0%;
+	}
+	
+	.main-nav {display: none;} 
+	
+	.mobile-nav-icon { display:inline-block;}
+	
+	.main-nav {
+		
+		float: left;
+		margin-top: 35px;
+		margin-left: 25px;
+	}
+	
+	.main-nav li {
+		
+		display: block;
+	}
+	
+	.main-nav li a:link,
+	.main-nav li a:visited {
+		
+		display: block;
+		border: 0;
+		padding: 10px 0;
+		font-size: 100%;
+	}
+
+		.sticky .main-nav li a:link,
+		.sticky .main-nav li a:visited {
+		padding: 10px 0;
+		
+	}
+
+		.sticky .main-nav { margin-top: 10px;}
+	     
+	.sticky .mobile-nav-icon i { color: #555;} 
+	
+	.sticky .mobile-nav-icon  { margin-top: 10px;}
+	
+	.long-copy {
+	
+	width: 100%;
+	margin-left: 0%;
+   }
+	
+	h1 { font-size: 180%;}
+	h2 { font-size: 150%;}
+	
+	
+	.app-screen {
+		
+		width:35%;
+		
+	}
+	
+	.work-steps div {
+	
+	height: 40px;
+	width: 40px;
+	font-size: 130%;
+	margin-right: 15px;
+    position: relative;
+    top: -5px;
+	
+		
+     }
+	
+	.logo{
+	
+	height: 90px;
+	
+}
+	
+	.steps-box:first-child {
+		text-align: center;
+	
+	}
+	
+	.box h3 { text-align: center}
+	
+	.icon-big { text-align: center;}
+	
+	
+	
+	footer p { line-height: 145%;}
+	
+	.hero-text-box {
+	
+	
+	top:55%;
+	left: 55%;
+	transform: translate(-55%,-55%);
+ }
+	
+	.map-box {
+	
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.maps {
+	
+	width: 100%;
+	height: 300px;
+	position: relative;
+	z-index: 0;
+}
+
+.form-box {
+	
+	position: relative;
+	width: 100%;
+	height: auto;
+	padding: 30px 0;
+ }
+}
+
+/*Small phones: from 396px to 480px*/
+@media only screen and (max-width: 480px) {
+	
+	section { padding: 25px 0;}
+	body { line-height: 145%;}
+    .contact-form { width: 100%;}
+	
+	.hero-text-box {
+	
+	
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+ }
+	
+	h1 { 
+		
+		font-size: 140%;
+		line-height: 145%;
+		
+	 }
+	h2 { 
+		font-size: 120%;
+		margin-bottom: 20px;
+		line-height: 145%;
+	}
+	
+	h2::after {
+	
+	content: " ";
+	width: 80px;
+	margin-top: 20px;
+   }
+	
+	.btn-full {
+		
+		margin-bottom: 20px;
+	}
+	.main-nav li a:link,
+	.main-nav li a:visited {
+		
+		padding: 5px 0;
+		font-size: 90%;
+	}
+	
+    .footer-nav li,
+.social-links li {
+	
+	
+	margin-right: 5px;
+	
+  } 
+	
+	.logo{
+	
+	height: 70px;
+	
+}
+	
+	.footer-nav li {
+		
+		width: 100%;
+	}
+	.social-links { margin-top:-100px;}
+	
+	p { text-align: center;}
+	
+	.work-steps div {
+	
+	height: 35px;
+	width: 35px;
+	font-size: 110%;
+	margin-right: 10px;
+		
+     }
+	
+	.icon-big { text-align: center;
+	           font-size: 300%;}
+	
+	h1,h2,h3 { text-align: center;}
+	
+	.form-box h2 { font-size:120%;}
+}
+	
+/* Very small phones: from 0 to 395px*/
+	
+	@media only screen and (max-width: 396px) {
+		
+		.hero-text-box {
+	
+	
+	top:60%;
+	left: 60%;
+	transform: translate(-60%,-60%);
+}
+		.mobile-nav-icon i {
+	
+	font-size: 180%;
+	
+	
+     }
+		
+		.main-nav {
+			
+	    position: relative;
+		left: -20px;
+		top:0;
+	   
+	
+       }
+		
+		.main-nav li {
+
+	margin-left: 20px;
+
+	
+	}
+		
+		h1 { 
+		
+		font-size: 135%;
+		
+		
+	 }
+	h2 { 
+		font-size: 110%;
+		margin-bottom: 15px;
+		
+	}
+		
+	h2::after {
+	
+	content: " ";
+	width: 60px;
+	margin-top: 15px;
+   }
+		.form-box h2 { font-size: 110%;}
+	
+	footer {
+	
+	padding: 40px;
+	
+      }
+}
